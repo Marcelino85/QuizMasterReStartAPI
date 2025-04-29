@@ -317,7 +317,6 @@ app.get('/api/questions', (req, res) => {
             "id": 26,
             "pergunta": "O setor automotivo agora está desenvolvendo um Unmanned Ground Vehicle (UGV – Veículo terrestre não tripulado) específico para ser usado pelas forças armadas, que fornece alertas ao operador referentes a condições perigosas, perda de conexão ou danos ao veículo. Eles sabem que precisarão se alinhar às diretrizes 800-171 do National Institute of Standards and Technology (NIST) a respeito do nível de segurança do veículo para proteger sua localização a todo momento. O aplicativo usado por cada UGV será hospedado em sua própria nuvem privada virtual (VPC) e executado em uma sub-rede privada. Que tipo de conexão de rede deve ser usada para permitir que os aplicativos UGV compartilhem dados com segurança entre si?",
             "alternativas": [
-                "Instâncias dedicadas",
                 "Hosts dedicados",
                 "AWS Direct Connect",
                 "Internet gateway",
@@ -531,16 +530,16 @@ app.get('/api/questions', (req, res) => {
           },
           {
             "id": 43,
-            "pergunta": "Uma empresa global de viagens anunciou uma reestruturação na empresa para reinvestir os lucros em tecnologia voltada para o cliente. O orçamento de TI foi realocado em 20% para o próximo ano; portanto, a equipe será forçada a fazer padronizações e eficiências com o novo orçamento até que a nova tecnologia gere lucros maiores. A empresa de viagens está planejando implantar um novo aplicativo...",
+            "pergunta": "Uma empresa global de viagens anunciou uma reestruturação na empresa para reinvestir os lucros em tecnologia voltada para o cliente. O orçamento de TI foi realocado em 20% para o próximo ano; portanto, a equipe será forçada a fazer padronizações e eficiências com o novo orçamento até que a nova tecnologia gere lucros maiores. A empresa de viagens está planejando implantar um novo aplicativo. Qual é a melhor abordagem para garantir que a nova tecnologia gere o valor esperado para o negócio?",
             "alternativas": [
-              "Alternativa 1",
-              "Alternativa 2",
-              "Alternativa 3",
-              "Alternativa 4"
+              "Desenvolver o aplicativo rapidamente para minimizar os custos de desenvolvimento.",
+              "Alinhar os objetivos do aplicativo com as metas estratégicas da empresa e medir os resultados esperados.",
+              "Investir em tecnologias emergentes sem considerar o impacto no cliente para inovar mais rapidamente.",
+              "Reduzir o escopo do aplicativo para atender ao novo orçamento, mesmo que comprometa a experiência do usuário."
             ],
             "respostaCorreta": 1,
-            "comentario": "Explicação detalhada."
-          },
+            "comentario": "A alternativa correta é alinhar os objetivos do aplicativo com as metas estratégicas da empresa e medir os resultados esperados. Como o orçamento está mais restrito e o objetivo é impulsionar o crescimento futuro, é fundamental garantir que cada investimento em tecnologia esteja diretamente conectado aos objetivos de negócio e agregue valor real. Desenvolver rapidamente ou reduzir o escopo sem considerar o impacto pode comprometer a qualidade e a satisfação do cliente, enquanto investir sem planejamento pode gerar desperdício de recursos."
+          },          
           {
             "id": 44,
             "pergunta": "Uma empresa global de viagens anunciou uma reestruturação na empresa para reinvestir os lucros em tecnologia voltada para o cliente. O orçamento de TI foi realocado em 20% para o próximo ano; portanto, a equipe será forçada a fazer padronizações e eficiências com o novo orçamento até que a nova tecnologia gere lucros maiores. A empresa de viagens está planejando implantar um novo aplicativo para otimizar seus processos internos. Qual abordagem seria mais eficiente para a implantação do aplicativo?",
